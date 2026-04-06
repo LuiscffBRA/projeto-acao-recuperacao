@@ -1,0 +1,49 @@
+.carrossel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.slide-item {
+  text-align: center;
+  flex: 1;
+}
+
+.imagem-acervo {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.info-acervo h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.info-acervo p {
+  font-size: 14px;
+  color: #666;
+}
+
+.btn-nav {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.btn-nav:hover {
+  background-color: #0056b3;
+}
