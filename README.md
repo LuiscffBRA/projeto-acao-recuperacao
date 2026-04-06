@@ -39,4 +39,3 @@ O foco atual desta plataforma é a exibição digital do acervo físico focado e
 
 * **Coordenação:** Prof. Laércio Medeiros
 * **Desenvolvimento e Banco de Dados:** Arthur (Dev Sênior), Luis Carlos e Raul Tavares
-* **Design e Exposição Aquário Natal:** Caio Jardelino e Dan
