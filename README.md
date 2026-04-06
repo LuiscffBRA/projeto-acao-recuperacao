@@ -1,16 +1,42 @@
-# React + Vite
+# 🏛️ Museu Itinerante - Projeto Ação Recuperação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositório destinado ao desenvolvimento do MVP e da plataforma do **Museu Itinerante Interativo**, parte do Projeto Ação Recuperação.
 
-Currently, two official plugins are available:
+O foco atual desta plataforma é a exibição digital do acervo físico focado em equipamentos de comunicação e áudio (celulares, telefones fixos, rádios, câmeras, etc.), garantindo uma arquitetura escalável e foco total em acessibilidade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 O que já foi implementado (MVP)
 
-## React Compiler
+* **Componente de Carrossel:** Estrutura inicial do acervo desenvolvida em React.
+* **Acessibilidade (a11y):** Implementação de descrições visuais (`alt` dinâmico) e rótulos de navegação (`aria-label`) para leitores de tela.
+* **Renderização Dinâmica:** O front-end já está preparado para consumir a futura modelagem genérica do nosso Banco de Dados (contemplando títulos, legendas e imagens com proporções variadas via `object-fit`).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+* **React** (via Vite)
+* **CSS3**
+* **Git / GitHub** (Controle de versão e gestão de issues)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Como rodar o projeto localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/LuiscffBRA/projeto-acao-recuperacao.git](https://github.com/LuiscffBRA/projeto-acao-recuperacao.git)
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd projeto-acao-recuperacao
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+## 👥 Equipe do Projeto
+
+* **Coordenação:** Prof. Laércio Medeiros
+* **Desenvolvimento e Banco de Dados:** Arthur (Dev Sênior), Luis Carlos e Raul Tavares
+* **Design e Exposição Aquário Natal:** Caio Jardelino e Dan
